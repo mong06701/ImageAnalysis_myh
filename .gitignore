@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment variables
+.env
+
+.venv/
+oxford_dataset/
+outputs/
+
+.env
+.venv/
+*.zip
+
+Add-Content .gitignore "`n.env`n.venv/`n*.zip"
+Get-Content .gitignore
